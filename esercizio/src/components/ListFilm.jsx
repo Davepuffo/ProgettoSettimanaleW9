@@ -51,12 +51,11 @@ class ListFilm extends Component {
                     </div>
                 )}
                 <h2 className="text-white text-start">{this.props.title}</h2>
-
-                <Row className="mb-2">
+                <Row className="mb-2 justify-content-center">
                     {
                         this.state.listaFilm.map((film) => (
-                            <Col className="film111 col-1 me-2" key={film._imbdID}>
-                                <Card style={{ width: '6rem' }}>
+                            <Col xs={6} md={3} lg={2} className="film111 me-2" key={film._imbdID}>
+                                <Card className="w=25">
                                     <Card.Img src={film.Poster} />
                                 </Card>
                             </Col>

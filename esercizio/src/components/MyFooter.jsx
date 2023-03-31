@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row"
 function MyFooter() {
     return (
         <Container className="bg-dark text-light">
-            <Col className="text-start my-3">
+            <Col className="my-3">
                 <a href="#" className="mx-1">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +63,8 @@ function MyFooter() {
                     </svg>
                 </a>
             </Col>
-            <Col className="">
-                <Row className="w-75 mt-2 text-start">
+            <Col className="d-flex justify-content-center">
+                <Row className="w-75 mt-2 ">
                     <Col>
                         <p>Audio</p>
                         <p>Media Center</p>

@@ -39,6 +39,7 @@
 
 .film111:hover {
   transform: rotate(0deg) scale(1.2, 1.2);
+  z-index: 1;
 }
 
 .film111 {
